@@ -1,0 +1,48 @@
+.form{
+	background: rgba(0,0,0, .75);
+	position: fixed;
+	left: 0; top: 0;
+	height: 100vh;
+	width: 100%;
+	z-index: 99;
+	transition: .5s ease;
+	opacity: 0;
+	visibility: hidden;
+	._form_5{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100vh;
+		width: 100%;
+		transform: translate(0, 100%);
+		transition: .25s ease .25s;
+	}
+	button.close {
+		position: fixed;
+		right: 15px;
+		top: 15px;
+		font-size: 50px;
+		padding: 0;
+		margin: 0;
+		width: 50px;
+		height: 50px;
+		line-height: 1;
+		border: none;
+		background: no-repeat;
+		color: #fff;
+		transform: rotate(45deg);
+		z-index: 999;
+		&:hover{
+			opacity: .8
+		}
+	}
+}
+.show-form{
+	.form{
+		opacity: 1;
+		visibility: visible;
+		._form_5{
+			transform: translate(0, 0);
+		}
+	}
+}

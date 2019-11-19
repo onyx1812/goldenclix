@@ -1,0 +1,21 @@
+.header{
+	background: #000;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	z-index: 2;
+	@media(min-width:768px){
+		height: 80px;
+		line-height: 80px;
+	}
+	img{
+		display: inline-block;
+		vertical-align: middle;
+		width: 160px;
+		@media(min-width:768px){
+			width: 320px;
+		}
+	}
+}

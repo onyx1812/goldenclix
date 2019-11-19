@@ -1,0 +1,35 @@
+.video{
+	background: #000;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	text-align: center;
+	color: #fff;
+	@media(min-width:768px){
+		padding-top: 145px;
+		padding-bottom: 180px;
+	}
+	h2{
+		font-size: 50px;
+		margin-bottom: 30px;
+		@media(min-width:768px){
+			font-size: 72px;
+			line-height: 88px;
+			margin-bottom: 72px;
+		}
+	}
+	iframe{
+		margin-bottom: 30px;
+		max-width: 100%;
+		width: 400px;
+		height: 225px;
+		@media(min-width:576px){
+			margin-bottom: 100px;
+			width: 560px;
+			height: 315px;
+		}
+		@media(min-width:1200px){
+			width: 1064px;
+			height: 599px;
+		}
+	}
+}
