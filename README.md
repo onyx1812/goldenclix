@@ -1,6 +1,7 @@
-# dev
+#dist
+[DEMO](https://onyx1812.github.io/goldenclix/dist)
 
-[livedemo](https://onyx1812.github.io/goldenclix/dist)
+# dev
 
 ## Project setup
 ```
