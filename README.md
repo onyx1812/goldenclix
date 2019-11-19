@@ -1,5 +1,7 @@
 # dev
 
+livedemo(https://onyx1812.github.io/goldenclix/dist)
+
 ## Project setup
 ```
 npm install
