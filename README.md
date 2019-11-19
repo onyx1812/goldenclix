@@ -1,4 +1,4 @@
-#dist
+# Preview
 [DEMO](https://onyx1812.github.io/goldenclix/dist)
 
 # dev
